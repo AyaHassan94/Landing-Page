@@ -1,13 +1,17 @@
 # Landing Page Project
 
-## Table of Contents
+* [Build the navigation menu](#instructions)
 
-* [Instructions](#instructions)
+##      Build the navigation menu :-
 
-## Instructions
+ dynamically create a navigation menu based on the sections of the page
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+* [Scroll to sections](#instructions)
 
-To get started, open `js/app.js` and start building out the app's functionality
+##      Scroll to sections :-
+ Clicking on a navigation item , scroll to the appropriate section of the page.
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+ * [Responsiv](#instructions)
+
+##      Responsive :-
+The page will be responsie at 700 px width
