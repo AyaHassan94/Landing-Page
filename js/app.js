@@ -1,6 +1,8 @@
+//global variables
 const nav = document.querySelector('#navbar__list');
 const nav2 = document.querySelectorAll('section');
 var navTexts = document.getElementsByTagName('li')
+// BuildNav function to build the navbar
 function buildNav() {
     const fragment = document.createDocumentFragment();
 
@@ -18,7 +20,7 @@ function buildNav() {
     });
     nav.appendChild(fragment);
 };
-
+// function to hover the sections at navbar and adding bubbles to the selected section
 function toggleActiveState() {
     let observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
@@ -48,7 +50,7 @@ function toggleActiveState() {
         observer.observe(section)
 
 }
-
+// calling the function
 window.addEventListener('scroll', toggleActiveState);
 
 buildNav();
